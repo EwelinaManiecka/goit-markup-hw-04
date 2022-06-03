@@ -38,12 +38,13 @@ h3 {
 /* z treści zadania B15*/
 
 .section {
-    padding-top: 47px;
-    padding-bottom: 47px;
+    padding-top: 94px;
+    padding-bottom: 94px;
     height: 600px;
     display: flex;
     align-items: center;
 }
+
 
 /*obrazki jako block*/
 
@@ -130,6 +131,11 @@ h1 {
     padding: 200px auto 280px;
     text-align: center;
     justify-content: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)),
+    url("/images/Img_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .button_index {
