@@ -396,6 +396,7 @@ address {
     color: #FFFFFF;
     font-style: normal;
     line-height: 1.71;
+    display: flex;
 }
 
 /* Stylowanie nr telefonu i adresu mailowego w footerze*/
@@ -423,4 +424,10 @@ address {
     list-style: none;
     padding-left: 0;
     padding-top: 9px;
+}
+
+/*Dołącz do nas - stylowanie*/
+
+address>h3{
+    text-transform: uppercase;
 }
