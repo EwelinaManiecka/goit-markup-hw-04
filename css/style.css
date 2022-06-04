@@ -239,6 +239,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-content: center;
+    border-radius: 4px;
 }
 
 p {
@@ -349,6 +350,23 @@ p {
     background-color:#2196F3;
 }
 
+/*sekcja o klientach*/
+
+.icon-client{
+    color: #AFB1B8;
+}
+
+.type_clients{
+    background-color: #FFFFFF;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill:#AFB1B8
+}
 
 /*wielkość footera
 tło footera + marginesy + padding*/
