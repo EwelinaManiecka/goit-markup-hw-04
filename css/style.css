@@ -428,7 +428,11 @@ address {
 
 /*Dołącz do nas - stylowanie*/
 
-address>h3{
-    text-transform: uppercase;
+footer>.container{
+    display: flex;
 }
 
+.other-web>h3{
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
