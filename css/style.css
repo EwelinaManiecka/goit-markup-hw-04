@@ -3,14 +3,14 @@ body {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    background-color:rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
     color: rgba(33, 33, 33, 1);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h1,
@@ -49,6 +49,7 @@ h3 {
     display: flex;
     align-items: center;
 }
+
 /*obrazki jako block*/
 
 img {
@@ -83,7 +84,7 @@ header {
     color: rgba(117, 117, 117, 1);
 }
 
-.navigation-icon{
+.navigation-icon {
     height: 16px;
     width: 18px;
 }
@@ -142,8 +143,8 @@ h1 {
     text-align: center;
     justify-content: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)),
-    url("/images/Img_background.jpg");
+            rgba(47, 48, 58, 0.4)),
+        url("/images/Img_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -177,18 +178,21 @@ h1 {
     border: 0;
     margin-bottom: 0;
 }
+
 .button:hover {
     background-color: rgba(33, 150, 243, 1);
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
+
 .button-head {
     list-style: none;
     justify-content: center;
     display: flex;
 }
+
 .button-head button:not(last-child) {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 /*w portfolio podpisy pod zdjęciami h3 i p*/
@@ -224,13 +228,13 @@ h2 {
 
 /* cel-tytuł: lorem ipsum stylowanie*/
 
- .goal-title {
-     font-size: 16px;
-     font-weight: 700;
-     line-height: 1.17;
-     text-transform: uppercase;
-     justify-content: center;
- }
+.goal-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    justify-content: center;
+}
 
 .goal-icon {
     width: 270px;
@@ -250,16 +254,16 @@ p {
 
 /* Zespół - stylowanie*/
 
- .group {
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 1.17;
-     background-color: whi;
-     text-align: center;
-     padding-top: 30px;
- }
- 
- /*stylowanie tekstu pod lorem ipsum*/
+.group {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+    background-color: whi;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*stylowanie tekstu pod lorem ipsum*/
 
 .description {
     line-height: 1.17;
@@ -268,7 +272,7 @@ p {
     justify-content: center;
 }
 
-.description:not(:last-child){
+.description:not(:last-child) {
     padding-left: 30px;
 }
 
@@ -294,7 +298,7 @@ p {
     justify-content: space-between;
 }
 
-.project .image-space:hover{
+.project .image-space:hover {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -313,7 +317,7 @@ p {
 /*Stylowanie zdjęć w czym się zajmujemy
 - odstępy między zdjęciami*/
 
-.list>.image-space{
+.list>.image-space {
     padding-left: 0;
     background-color: white;
 }
@@ -331,7 +335,7 @@ p {
     list-style: none;
 }
 
-.social-icons-item{
+.social-icons-item {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -351,18 +355,18 @@ p {
 }
 
 .social-icons-item:hover,
-.social-icons-item:focus{
+.social-icons-item:focus {
     fill: #ffffff;
-    background-color:#2196F3;
+    background-color: #2196F3;
 }
 
 /*sekcja o klientach*/
 
-.icon-client{
+.icon-client {
     color: #AFB1B8;
 }
 
-.type_clients{
+.type_clients {
     background-color: #FFFFFF;
     width: 170px;
     height: 92px;
@@ -371,13 +375,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill:#AFB1B8
+    fill: #AFB1B8
 }
 
 /* Zmiana koloru - najechanie myszą*/
 
-.type_clients:hover{
-    fill:#2196F3;
+.type_clients:hover {
+    fill: #2196F3;
     border: 1px solid #2196F3;
 }
 
@@ -428,11 +432,11 @@ address {
 
 /*Dołącz do nas - stylowanie*/
 
-footer>.container{
+footer>.container {
     display: flex;
 }
 
-.other-web>h3{
+.other-web>h3 {
     color: #FFFFFF;
     text-transform: uppercase;
 }
