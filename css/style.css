@@ -19,7 +19,7 @@ h3 {
     margin: 0;
 }
 
-/* z treści zadania B8*/
+/*szerokość kontenerów*/
 
 .container {
     width: 1200px;
@@ -35,7 +35,7 @@ h3 {
     padding-left: 0;
 }
 
-/* z treści zadania B15*/
+/*sekcje - całość*/
 
 .section {
     padding-top: 94px;
@@ -83,6 +83,11 @@ header {
     color: rgba(117, 117, 117, 1);
 }
 
+.navigation-icon{
+    height: 16px;
+    width: 18px;
+}
+
 nav {
     font-size: 14px;
     font-weight: 500;
@@ -113,44 +118,6 @@ a {
     font-weight: 500;
     color: rgba(0, 0, 0, 1);
 }
-
-.contacts-icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0;
-}
-
-.social-list {
-    display: block;
-    list-style: none;
-}
-
-.social-icons-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    fill: #AFB1B8;
-}
-
-.social-icons {
-    width: 20px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.social-icons-item:hover,
-.social-icons-item:focus{
-    fill: #ffffff;
-    background-color:#2196F3;
-}
-
 
 a:hover {
     color: #2196F3;
@@ -265,6 +232,15 @@ h2 {
      justify-content: center;
  }
 
+.goal-icon {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 p {
     font-size: 16px;
     line-height: 1.71;
@@ -334,6 +310,45 @@ p {
     padding-left: 0;
     background-color: white;
 }
+
+/* Ikonki kontaktowe z sekcji o zespole*/
+.contacts-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.social-list {
+    display: block;
+    list-style: none;
+}
+
+.social-icons-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    fill: #AFB1B8;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons-item:hover,
+.social-icons-item:focus{
+    fill: #ffffff;
+    background-color:#2196F3;
+}
+
 
 /*wielkość footera
 tło footera + marginesy + padding*/
