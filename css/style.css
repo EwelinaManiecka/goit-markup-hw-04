@@ -312,6 +312,12 @@ p {
     background-color: white;
 }
 
+.project .image-space:hover{
+    background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* Ikonki kontaktowe z sekcji o zespole*/
 .contacts-icons {
     display: flex;
@@ -370,8 +376,7 @@ p {
 
 /* Zmiana koloru - najechanie myszą*/
 
-.type_clients:hover,
-.icon-client:hover{
+.type_clients:hover{
     fill:#2196F3;
     border: 1px solid #2196F3;
 }
