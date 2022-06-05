@@ -383,6 +383,7 @@ p {
 .type_clients:hover {
     fill: #2196F3;
     border: 1px solid #2196F3;
+    cursor: pointer;
 }
 
 /*wielkość footera
