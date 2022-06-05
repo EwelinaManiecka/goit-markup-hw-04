@@ -215,6 +215,7 @@ h1 {
 .image-space {
     margin-bottom: 30px;
 }
+
 h3 {
     font-size: 18px;
     font-weight: 700;
@@ -239,15 +240,6 @@ h2 {
 
 /* cel-tytuł: lorem ipsum stylowanie*/
 
-.goal-title {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.17;
-    text-transform: uppercase;
-    justify-content: center;
-    margin-top: 55px;
-}
-
 .area-goal {
     width: 270px;
     height: 120px;
@@ -260,7 +252,18 @@ h2 {
 
 .goal-icon {
     height: 70%;
+    width: 270px;
 }
+
+.goal-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 55px;
+}
+
 p {
     font-size: 16px;
     line-height: 1.71;
