@@ -80,8 +80,8 @@ header {
     align-items: center;
 }
 
-.navigation-item:hover,
-.navigation-icon{
+.navigation-item:hover
+.navigation-icon {
     fill: #2196F3;
     cursor: pointer;
 }
@@ -210,9 +210,11 @@ h1 {
     padding: 20px 24px 0;
     box-shadow: rgba(238, 238, 238, 1);
     border: 1px solid #EEEEEE;
-    margin: 0 0 30px 0;
 }
 
+.image-space {
+    margin-bottom: 30px;
+}
 h3 {
     font-size: 18px;
     font-weight: 700;
@@ -243,6 +245,7 @@ h2 {
     line-height: 1.17;
     text-transform: uppercase;
     justify-content: center;
+    margin-top: 55px;
 }
 
 .area-goal {
@@ -250,12 +253,13 @@ h2 {
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
-}
-
-.goal-icon {
     display: block;
     justify-content: center;
     align-items: center;
+}
+
+.goal-icon {
+    height: 70%;
 }
 p {
     font-size: 16px;
