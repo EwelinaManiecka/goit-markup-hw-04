@@ -144,7 +144,7 @@ h1 {
     justify-content: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url("/images/Img_background.jpg");
+        url("../images/Img_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
