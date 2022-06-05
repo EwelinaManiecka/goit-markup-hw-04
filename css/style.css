@@ -434,6 +434,7 @@ address {
 
 footer>.container {
     display: flex;
+    align-items: center;
 }
 
 .other-web>h3 {
