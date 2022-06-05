@@ -76,8 +76,6 @@ header {
 
 .navigation-item {
     margin-left: 50px;
-    display: flex;
-    align-items: center;
 }
 
 .navigation-item:hover
@@ -86,16 +84,17 @@ header {
     cursor: pointer;
 }
 
-.data-contact,
-.navigation-icon {
+.data-contact {
     color: rgba(117, 117, 117, 1);
-    margin-left: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .navigation-icon {
     height: 16px;
     width: 18px;
     fill: #757575;
+    margin-right: 10px;
 }
 
 nav {
