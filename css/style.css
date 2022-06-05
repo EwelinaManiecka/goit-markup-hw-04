@@ -80,14 +80,22 @@ header {
     align-items: center;
 }
 
+.navigation-item:hover,
+.navigation-icon{
+    fill: #2196F3;
+    cursor: pointer;
+}
+
 .data-contact,
 .navigation-icon {
     color: rgba(117, 117, 117, 1);
+    margin-left: 10px;
 }
 
 .navigation-icon {
     height: 16px;
     width: 18px;
+    fill: #757575;
 }
 
 nav {
