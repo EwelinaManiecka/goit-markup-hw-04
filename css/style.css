@@ -245,16 +245,18 @@ h2 {
     justify-content: center;
 }
 
-.goal-icon {
+.area-goal {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
-    display: flex;
-    justify-content: center;
-    align-content: center;
     border-radius: 4px;
 }
 
+.goal-icon {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 p {
     font-size: 16px;
     line-height: 1.71;
