@@ -241,9 +241,6 @@ h2 {
 
 .area-goal {
     width: 270px;
-    height: 120px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -251,7 +248,16 @@ h2 {
 
 .goal-icon {
     height: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-icons{
     width: 270px;
+    height: 120px; 
+    background-color: #F5F4FA;
+    border-radius: 4px;
 }
 
 .goal-title {
@@ -260,7 +266,12 @@ h2 {
     line-height: 1.17;
     text-transform: uppercase;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 30px;
+}
+
+.goal-texts{
+    list-style: none;
+    padding-left: 0;
 }
 
 p {
@@ -345,10 +356,11 @@ p {
     align-items: center;
     justify-content: space-around;
     padding: 0;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 .social-list {
-    display: block;
     list-style: none;
 }
 
@@ -466,13 +478,14 @@ footer>.container {
 .social-icons-item-footer{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     width: 44px;
     height: 44px;
     border-radius: 50%;
     margin-bottom: 30px;
     background-color: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
+    margin-right: 10px;
 }
 
 .social-icons-item-footer:hover,
