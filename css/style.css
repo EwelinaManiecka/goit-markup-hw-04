@@ -246,13 +246,6 @@ h2 {
     align-items: center;
 }
 
-.goal-icon {
-    height: 70%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
 .bg-icons{
     width: 270px;
     height: 120px; 
@@ -260,6 +253,12 @@ h2 {
     border-radius: 4px;
 }
 
+.goal-icon {
+    height: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 .goal-title {
     font-size: 16px;
     font-weight: 700;
